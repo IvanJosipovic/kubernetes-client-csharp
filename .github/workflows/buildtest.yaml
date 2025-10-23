@@ -88,5 +88,6 @@ jobs:
 on:
   pull_request:
     types: [assigned, opened, synchronize, reopened]
+  push:
     branches:
       - 'json-source-gen2' # temp for testing
